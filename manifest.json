@@ -1,0 +1,11 @@
+{
+  "name": "Jisho Search Plugin",
+  "description": "Search terms on Jisho's Dictionary",
+  "version": "0.1",
+  "permissions": ["contextMenus", "tabs"],
+  "background": {
+    "persistent": false,
+    "scripts": ["index.js"]
+  },
+  "manifest_version": 2
+}
